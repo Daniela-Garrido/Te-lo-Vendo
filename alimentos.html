@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/script/script.js">
+    <script src="https://kit.fontawesome.com/dc217abaa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Te lo vendo</title>
+
+</head> 
+<body>
+    <header>
+        <div class="header__branding">
+            <a href="index.html"><img src="assets/img/pngegg (2).png" alt="Logo Te lo vendo" class="header__logo-img"
+                    style="height:48px;"></a>
+        </div>
+        <h2>Bienvenidos a nuestro Pet Shop</h2>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html#home" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="productos.html" class="nav__link">Productos</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ficha-producto">
+            <div class="producto__img">
+                <img src="https://e-pet.cl/cdn/shop/files/amity-sp-low-grain-chicken-puppy-14-kg_b67aeda5-8f12-4ed3-a192-9ff60e06b984_900x.jpg?v=1724777859">
+            </div>
+            <div class="producto__detalles">
+                <h2 class="producto__titulo">Alimento para perros Amity Sp</h2>
+                <p class="producto__descripcion">Amity Low Grain Chicken Puppy es un alimento para cachorros de todas las razas y tamaños formulado con pollo, arroz integral y verduras. Alimento hipoalergénico y Libre de GMO.</p>
+                <p>Seleccionar peso de producto:</p>
+                <form>
+                    <input type="radio" id="2kilos" name="peso_alimento" value="2kg">
+                    <label for="2kilos">2 KG</label><br>
+                    <input type="radio" id="14kilos" name="peso_alimento" value="14kg">
+                    <label for="8kilos">14 KG</label><br>
+                    <input type="radio" id="30kilos" name="peso_alimento" value="30kg">
+                    <label for="30kilos">30 KG</label><br>
+                </form>
+                <h4>$19.990</h4>
+                <a class="producto__btn-agregar" href="#" target="_parent">Añadir al carrito</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__links">
+                <h4>Compañia</h4> <br>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Nuestros Servicios</a></li>
+                    <li><a href="">Politica de privacidad</a></li>
+                </ul>
+            </div>
+                    
+            <div>
+                <h4>Siguenos</h4>
+                <div>
+                    <div class="footer__links--redes">
+                        <a href="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div> <br>
+                    <h4>Suscribete</h4>
+                    <form>
+                        <input type="email" placeholder="Correo">
+                        <input class="btn" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>                    
+        </div>
+    </footer>
+</body>
+</html>

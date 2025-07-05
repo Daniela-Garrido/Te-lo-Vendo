@@ -189,11 +189,43 @@ footer {
 .footer__links {
     width: 25%;
     padding: 20px;
-    font-size: 15px;
-    
-    
+    font-size: 15px;    
 }
 
+.ficha-producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 30px 20px 30px;
+    padding: 20px;
+}
+
+.producto__img{
+    width: 25em;
+}
+
+.producto__img img{
+    width: 100%;
+}
+
+.producto__detalles{
+    border-left: 1px solid #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20em;
+    padding-left: 20px;
+}
+
+.producto__btn-agregar{
+    background-color: #F2D64B;
+    border-radius: 18px;
+    padding: 1rem;
+    color: #070044;
+    font-weight: bold;
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .productos {
