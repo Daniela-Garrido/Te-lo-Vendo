@@ -47,20 +47,6 @@ El sitio web consta de las siguientes páginas:
 ## Tecnologías Utilizadas 💻
 - HTML5
 - CSS3
-- JavaScript (para funcionalidades básicas)
-- [Opcional: puedes añadir frameworks que uses]
-
-## Cómo Contribuir 🤝
-Si deseas contribuir al proyecto:
-1. Haz un fork del repositorio
-2. Crea una rama con tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Haz commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
-## Contacto 📩
-Para más información puedes contactarnos a:
-- Email: contacto@telovendopetshop.com
-- Teléfono: +XX XXX XXX XXXX
+- BEM
 
 ¡Gracias por visitar nuestro proyecto! 🐶🐱
