@@ -359,6 +359,10 @@ footer {
     gap: 1.5rem;
     max-width: 500px;
     margin: 0 auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(19,2,211,0.07);
+    padding: 2rem 1.5rem;
 }
 
 .contact__form-group {
