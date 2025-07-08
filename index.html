@@ -24,6 +24,7 @@
                 <li class="nav__item"><a href="index.html#home" class="nav__link">Inicio</a></li>
                 <li class="nav__item"><a href="alimentos.html" class="nav__link">Productos</a></li>
                 <li class="nav__item"><a href="about.html" class="nav__link">Acerca de nosotros</a></li>
+                <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -101,7 +102,24 @@
                 </article>
             </div>
         </section>
-
+<section class="contact" id="contacto">
+            <h2 class="contact__title">Contacto</h2>
+            <form class="contact__form">
+                <div class="contact__form-group">
+                    <label class="contact__label" for="nombre">Nombre:</label>
+                    <input class="contact__input" type="text" placeholder="Ejemplo:Nombre Apellido" name="nombre" required>
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="email">Email:</label>
+                    <input class="contact__input" type="email" placeholder="nombre@example.com" id="email" name="email" required>
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="mensaje">Mensaje:</label>
+                    <textarea class="contact__input" id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button class="contact__button" type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
 
 
