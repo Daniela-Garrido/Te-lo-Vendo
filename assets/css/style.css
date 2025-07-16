@@ -276,7 +276,7 @@ footer {
     margin-top: 0;
 }
 
-.about__aside h2 {
+.about__aside h3 {
     color: #1302d3;
     margin-bottom: 1rem;
 }
@@ -331,6 +331,130 @@ footer {
 .about__aside ul {
     list-style: none;
     padding-left: 0;
+}
+
+/* ===== ENHANCED ABOUT STYLES ===== */
+.about__card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about__card-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.about__card h2,
+.about__card h3 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.about__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about__list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.about__list li i {
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+}
+
+.about__list--benefits li i {
+    color: #ffa500;
+}
+
+.about__team {
+    margin-top: 1rem;
+}
+
+.about__team h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.about__team-members {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.about__team-member {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: rgba(74, 144, 226, 0.08);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.about__team-member:hover {
+    background: rgba(74, 144, 226, 0.15);
+    transform: translateX(5px);
+}
+
+.about__team-member i {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.about__team-member span {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.about__image-container {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.about__aside-img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about__aside-img:hover {
+    transform: scale(1.05);
+}
+
+/* Enhanced card hover effects */
+.about__card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(19, 2, 211, 0.15);
+    transition: all 0.3s ease;
+}
+
+.about__aside:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
 }
 .contact {
     background: #f7f7ff;
