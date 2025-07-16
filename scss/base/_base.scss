@@ -1,0 +1,26 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:map-get($colors,"primary");
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+footer {
+    background-color:map-get($colors,"primary");
+    padding: 25px;
+    color: white;
+}
+

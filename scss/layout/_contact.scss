@@ -1,0 +1,77 @@
+@use "../abstracts/variables";
+@use "../base/fonts";
+
+.contact {
+    background: #ffffff;
+    padding: 40px 0 30px 0;
+    margin-top: 30px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(19,2,211,0.07);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact__title {
+    text-align: center;
+    color:map-get($colors, "primary");
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(19,2,211,0.07);
+    padding: 2rem 1.5rem;
+}
+
+.contact__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact__label {
+    font-weight: 600;
+    color:map-get($colors, "primary");
+    font-size: 1rem;
+}
+
+.contact__input {
+    padding: 10px 14px;
+    border: 1px solid map-get($colors, "resaltar");
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #ffffff;
+    color:map-get($colors, "p-card");
+    transition: border 0.2s;
+}
+
+.contact__input:focus {
+    outline: none;
+    border: 2px solid map-get($colors, "primary");
+}
+
+.contact__button {
+    background: map-get($colors, "resaltar");
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 10px;
+}
+
+.contact__button:hover {
+    background:map-get($colors, "primary");
+}

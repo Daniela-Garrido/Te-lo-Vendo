@@ -3,7 +3,7 @@
 
 ul, ol{
     list-style: none;
-}
+} /*listo esta en base*/
 
 .nav__link {
     color: #fff;
@@ -20,9 +20,9 @@ ul, ol{
 * {
     padding: 0;
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family:"Raleway", sans-serif;
 
-}
+} /*listo esta en base*/
 
 header {
     display: flex;
@@ -30,15 +30,15 @@ header {
     align-items: center;
     background-color: #022873;
     padding: 20px;
-    color: rgb(255, 255, 255);
+    color: white;
     position: relative;
-}
+} /*listo esta en base*/
 
 a {
     text-decoration: none;
-}
+} /*listo esta en base*/
 
-
+/* listo esta en header.scss*/
 .header__branding {
     position: absolute;
     left: 50%;
@@ -69,6 +69,8 @@ a {
     gap: 2rem;
 }
 
+
+/* card listas con cambio de colores por mapa de sass esta en card.scss*/
 .section__card {
 
     background-color:#00db962a;
@@ -131,6 +133,8 @@ a {
     background-color: #0215C2;
 }
 
+/* -----------------------------------------------*/
+/* seccion categorias listas con cambio de colores por mapa de sass esta en categorias.scss*/
 .seccion__categoria {
     margin: 30px;
 }
@@ -186,7 +190,9 @@ footer {
     padding: 25px;
     color: white;
 
-}
+}  /*listo base*/
+
+/*listo footer carpera footer.scss*/
 
 .footer__container {
     display: flex;
@@ -200,6 +206,9 @@ footer {
     padding: 20px;
     font-size: 15px;    
 }
+
+
+/*----------------------------------------------------------------------------*/
 
 .ficha-producto{
     display: flex;
@@ -241,10 +250,10 @@ footer {
     background-color: #0215C2;
 }
 
-/* --- Estilos About Pet Shop --- */
+/* ------------------------Estilos About Pet Shop ----------------- */
 .about__main {
     padding: 2rem 1rem;
-    background: #f7f7ff;
+    background: #ffffff;
 }
 
 .about__content-wrapper {
@@ -258,7 +267,7 @@ footer {
 
 .about__section {
     flex: 2 1 320px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 1rem;
     box-shadow: 0 2px 8px rgba(19,2,211,0.07);
     padding: 2rem;
@@ -267,7 +276,7 @@ footer {
 
 .about__aside {
     flex: 1 1 220px;
-    background: #e3eaff;
+    background: #ffffff;
     border-radius: 1rem;
     box-shadow: 0 4px 24px 0 rgba(19,2,211,0.18), 0 2px 8px rgba(0,0,0,0.07);
     padding: 1.5rem 1rem;
@@ -332,6 +341,9 @@ footer {
     list-style: none;
     padding-left: 0;
 }
+
+/*-------------------------------------------------------------------------------------------*/
+/*listo en carpeta contact.scss com mapas de color sass*/
 .contact {
     background: #f7f7ff;
     padding: 40px 0 30px 0;
@@ -406,6 +418,9 @@ footer {
 .contact__button:hover {
     background: #0215C2;
 }
+
+
+/* todas las @media listas en mixins*/
 
 @media (max-width: 1100px) {
     .about__content-wrapper {

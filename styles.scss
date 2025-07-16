@@ -1,0 +1,22 @@
+@use "./scss/abstracts/mixins";
+@use "./scss/abstracts/variables";
+
+@use "./scss/base/base";
+@use "./scss/base/fonts";
+@use "./scss/base/resets";
+
+@use "./scss/components/button";
+@use "./scss/components/products";
+@use "./scss/components/card.scss";
+
+@use "./scss/layout/footer";
+@use "./scss/layout/header";
+@use "./scss/layout/categorias";
+
+@use "./scss/pages/about";
+@use "./scss/pages/accesories";
+@use "./scss/pages/food";
+@use "./scss/pages/index";
+@use "./scss/pages/toys";
+
+

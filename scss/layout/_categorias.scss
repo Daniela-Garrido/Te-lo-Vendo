@@ -1,0 +1,52 @@
+@use "../abstracts/variables";
+@use "../base/fonts";
+
+
+.seccion__categoria {
+    margin: 30px;
+}
+
+.categorias__titulo {
+    margin-left: 20px;
+    border-bottom: 5px solid map-get($colors, "primary");
+    width: fit-content;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 15px;
+    padding: 15px;
+    background-color:map-get($colors, "resaltar");
+    border-radius: 3rem;
+    align-content: center;
+}
+
+.categoria__card {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.categoria__contenido {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.categoria__img {
+    width: 100px;
+    height: 100px;
+}
+
+.categoria__titulo {
+    margin-top: 10px;
+    color: #000000;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    
+}
