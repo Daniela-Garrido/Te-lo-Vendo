@@ -1,0 +1,23 @@
+{
+  "name": "te-lo-vendo",
+  "version": "1.0.0",
+  "description": "Bienvenido al repositorio de **Te lo Vendo**, tu tienda online especializada en productos para mascotas.",
+  "homepage": "https://github.com/Daniela-Garrido/Te-lo-Vendo#readme",
+  "bugs": {
+    "url": "https://github.com/Daniela-Garrido/Te-lo-Vendo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniela-Garrido/Te-lo-Vendo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
