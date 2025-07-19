@@ -16,5 +16,10 @@ $font-weight-normal: 600;
     
 }
 
+.contact-form-container {
+    max-width: 600px; /* Ancho máximo opcional */
+    margin: 0 auto;   /* Centrado horizontal */
+  }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
