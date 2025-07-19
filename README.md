@@ -49,4 +49,20 @@ El sitio web consta de las siguientes páginas:
 - CSS3
 - BEM
 
+## Cómo implementar proyecto con Bootstrap y SASS
+### Instalar Bootsrap vía NPM
+- Ingresar comando en la consola PowerShell:
+```bash
+ npm init
+```
+- Ingresar comando para instalar bootstrap:
+```bash
+ npm install bootstrap@5.3.7
+```
+### Inicializar Sass
+- Ingrese el siguiente comando en su consola
+```bash
+ sass scss/custom.scss assets/css/custom.css --watch
+```
+
 ¡Gracias por visitar nuestro proyecto! 🐶🐱
