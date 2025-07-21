@@ -20,7 +20,7 @@ ul, ol{
 * {
     padding: 0;
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family:"Raleway", sans-serif;
 
 }
 
@@ -201,6 +201,10 @@ footer {
     font-size: 15px;    
 }
 
+
+
+
+
 .ficha-producto{
     display: flex;
     flex-wrap: wrap;
@@ -239,7 +243,12 @@ footer {
 
 .producto__btn-agregar:hover{
     background-color: #0215C2;
+
 }
+
+
+
+
 
 /* --- Estilos About Pet Shop --- */
 .about__main {
@@ -458,6 +467,10 @@ footer {
     transform: translateY(-3px);
     transition: all 0.3s ease;
 }
+
+
+
+
 .contact {
     background: #f7f7ff;
     padding: 40px 0 30px 0;

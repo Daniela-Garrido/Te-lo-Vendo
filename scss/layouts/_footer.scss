@@ -1,0 +1,23 @@
+@import "../abstracts/variables";
+
+.footer {
+    background-color:$primary;
+    color: white;
+    padding: 1px;
+
+}
+
+.footer__container {
+    display:flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.footer__links a {
+
+    font-size: 15px; 
+    text-decoration: none;   
+    color: white;
+}
