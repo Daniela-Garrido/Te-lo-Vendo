@@ -1,6 +1,6 @@
-@import "../abstracts/variables";
-@import "../base/font";
-@import "../base/base";
+@use "../abstracts/variables" as *;
+@use "../base/font";
+@use "../base/base";
 
 /* --- Estilos About Pet Shop --- */
 .about__main {

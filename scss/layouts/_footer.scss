@@ -1,25 +1,25 @@
-@import "../abstracts/variables";
-@import "../base/font";
+@use "../abstracts/variables" as *;
+@use "../base/font";
 
 .footer {
     background-color:$primary;
     color: white;
     padding: 1px;
     font-family: "Raleway", sans-serif;
-
-}
-
-.footer__container {
+    &__container {
     display:flex;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 20px;
-    
-}
-
-.footer__links a {
-
-    font-size: 15px; 
-    text-decoration: none;   
-    color: white;
+    }
+    &__links a {
+        font-size: 15px; 
+        text-decoration: none;   
+        color: white;
+    }
+    &__links-redes a{
+        color: white;
+        width: 25px;
+        height: 25px;
+    }
 }

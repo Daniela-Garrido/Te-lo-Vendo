@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @media (max-width: 1100px) {
   .about__content-wrapper {
     flex-direction: column;
@@ -102,8 +88,7 @@ ul, ol {
 .card img {
   width: 100%;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
@@ -201,18 +186,21 @@ ul, ol {
   padding: 1px;
   font-family: "Raleway", sans-serif;
 }
-
 .footer__container {
   display: flex;
   padding: 10px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 20px;
 }
-
 .footer__links a {
   font-size: 15px;
   text-decoration: none;
   color: white;
+}
+.footer__links-redes a {
+  color: white;
+  width: 25px;
+  height: 25px;
 }
 
 .seccion__categoria {
@@ -222,7 +210,6 @@ ul, ol {
 .categorias__titulo {
   margin-left: 20px;
   border-bottom: 5px solid #022873;
-  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -269,12 +256,10 @@ ul, ol {
   padding: 40px 0 30px 0;
   margin-top: 30px;
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(19, 2, 211, 0.07);
+  box-shadow: 0 2px 8px rgba(19, 2, 211, 0.3);
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 50px auto;
 }
-
 .contact__title {
   text-align: center;
   color: #022873;
@@ -282,7 +267,6 @@ ul, ol {
   margin-bottom: 2rem;
   font-size: 2rem;
 }
-
 .contact__form {
   display: flex;
   flex-direction: column;
@@ -290,11 +274,8 @@ ul, ol {
   max-width: 500px;
   margin: 0 auto;
   background: white;
-  border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(19, 2, 211, 0.07);
   padding: 2rem 1.5rem;
 }
-
 .contact__form-group {
   display: flex;
   flex-direction: column;
@@ -337,20 +318,6 @@ ul, ol {
 
 .contact__button:hover {
   background: #0215C2;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul, ol {
-  list-style: none;
 }
 
 /* --- Estilos About Pet Shop --- */
@@ -570,18 +537,44 @@ ul, ol {
   transition: all 0.3s ease;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
+.ficha-producto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 30px 20px 30px;
+  padding: 20px;
 }
 
-a {
-  text-decoration: none;
+.producto__img {
+  width: 25em;
 }
 
-ul, ol {
-  list-style: none;
+.producto__img img {
+  width: 100%;
+}
+
+.producto__detalles {
+  border: 1px solid #414141;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20em;
+  padding: 30px;
+}
+
+.producto__btn-agregar {
+  background-color: #00DB94;
+  border-radius: 18px;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.producto__btn-agregar:hover {
+  background-color: #0215C2;
 }
 
 .ficha-producto {
@@ -624,56 +617,4 @@ ul, ol {
   background-color: #0215C2;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul, ol {
-  list-style: none;
-}
-
-.ficha-producto {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin: 20px 30px 20px 30px;
-  padding: 20px;
-}
-
-.producto__img {
-  width: 25em;
-}
-
-.producto__img img {
-  width: 100%;
-}
-
-.producto__detalles {
-  border: 1px solid #414141;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 20em;
-  padding: 30px;
-}
-
-.producto__btn-agregar {
-  background-color: #00DB94;
-  border-radius: 18px;
-  padding: 1rem;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-
-.producto__btn-agregar:hover {
-  background-color: #0215C2;
-}/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
