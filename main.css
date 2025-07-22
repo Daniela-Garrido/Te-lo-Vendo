@@ -61,6 +61,20 @@
     width: 95vw;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
 .section__card {
   background-color: rgba(0, 219, 150, 0.1647058824);
   padding: 25px;
@@ -183,6 +197,7 @@
   background-color: #022873;
   color: white;
   padding: 1px;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer__container {
